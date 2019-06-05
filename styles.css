@@ -16,3 +16,18 @@ h5 {
 span {
     font-weight: 400;
 }
+
+a#linkGithub {
+    border: 2px solid #c4c4c4;
+    background: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+
+a#linkGithub:hover, a#logo:hover {
+    color: #00BFFF;
+    border-color: #00BFFF;
+    transition: all .7s ease;
+}
